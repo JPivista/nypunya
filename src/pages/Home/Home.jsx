@@ -40,8 +40,8 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="flex justify-center items-center bg-dblue p-4 backdrop-blur-lg">
-                <div className="container-xl py-10 px-5 relative bg-blue-700/75 backdrop-blur-lg border border-white/30 rounded-lg shadow-lg">
+            <div className="flex justify-center items-center bg-[#2B4257] p-4 backdrop-blur-lg">
+                <div className="container-xl py-10 px-5 relative bg-[#14202E]/50 backdrop-blur-lg border border-white/30 rounded-lg shadow-lg">
                     <div className="lg:grid lg:grid-cols-2 lg:gap-4 flex flex-col gap-10">
                         <div className='flex flex-col justify-center' data-aos="fade-right">
                             <h2 className="text-4xl font-bold text-white">
@@ -87,7 +87,7 @@ const Home = () => {
                     <div className='lg:grid lg:grid-cols-3 gap-5 flex flex-col'>
                         <div className="flex flex-col items-center gap-8 p-4">
                             {/* Combined Hover Effect */}
-                            <div className='border-2 border-white p-10 rounded-xl flex flex-col gap-6 backdrop-blur-sm bg-white/10 shadow-lg transition-transform transition-colors duration-300 hover:scale-105 hover:shadow-2xl hover:bg-blue-500 hover:text-white hover:border-blue-500'
+                            <div className='border-2 border-white p-10 rounded-xl flex flex-col gap-6 backdrop-blur-sm bg-white/10 shadow-lg transition-transform transition-colors duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#2B4257] hover:text-white hover:border-white'
                                 data-aos="fade-down">
                                 <div>
                                     <p className='text-2xl font-semibold '>
@@ -108,7 +108,7 @@ const Home = () => {
                         </div>
                         <div className="flex flex-col items-center gap-8 p-4">
                             {/* Combined Hover Effect */}
-                            <div className='border-2 border-white p-10 rounded-xl flex flex-col gap-6 backdrop-blur-sm bg-white/10 shadow-lg transition-transform transition-colors duration-300 hover:scale-105 hover:shadow-2xl hover:bg-blue-500 hover:text-white hover:border-blue-500'
+                            <div className='border-2 border-white p-10 rounded-xl flex flex-col gap-6 backdrop-blur-sm bg-white/10 shadow-lg transition-transform transition-colors duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#2B4257] hover:text-white hover:border-white'
                                 data-aos="fade-up" data-aos-duration="5000" data-aos-easing="ease-out-cubic"
                             >
                                 <div>
@@ -135,7 +135,7 @@ const Home = () => {
                         </div>
                         <div className="flex flex-col items-center gap-8 p-4">
                             {/* Combined Hover Effect */}
-                            <div className='border-2 border-white p-10 rounded-xl flex flex-col gap-6 backdrop-blur-sm bg-white/10 shadow-lg transition-transform transition-colors duration-300 hover:scale-105 hover:shadow-2xl hover:bg-blue-500 hover:text-white hover:border-blue-500'
+                            <div className='border-2 border-white p-10 rounded-xl flex flex-col gap-6 backdrop-blur-sm bg-white/10 shadow-lg transition-transform transition-colors duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#2B4257] hover:text-white hover:border-white'
                                 data-aos="fade-down">
                                 <div>
                                     <p className='text-2xl font-semibold '>
@@ -144,11 +144,11 @@ const Home = () => {
                                 </div>
                                 <hr className='w-full border border-white' />
                                 <div className='flex flex-col items-center justify-center gap-8'>
-                                    <a href='https://maps.app.goo.gl/cT6JXVKPpKmnQdkX6' target='_blank'>
+                                    <a href='https://maps.app.goo.gl/cT6JXVKPpKmnQdkX6' target='_blank' rel="noreferrer">
                                         <img className='transition-transform duration-300 hover:scale-105' src='/location.png' alt='our-doctors' />
                                     </a>
                                     <p className='font-semibold flex items-center'>
-                                        <a href='https://maps.app.goo.gl/cT6JXVKPpKmnQdkX6' target='_blank'>
+                                        <a href='https://maps.app.goo.gl/cT6JXVKPpKmnQdkX6' target='_blank' rel="noreferrer">
                                             <span className='text-2xl font-bold pr-2'> Our Location </span>
                                         </a>
                                     </p>

@@ -7,25 +7,25 @@ const navLinks = [
     { name: 'About Us', route: '/about-us' },
     {
         name: 'Services',
-        route: '/services',
+        route: '/plastic-surgery',
         subLinks: [
             {
                 category: 'Plastic Surgery',
                 links: [
-                    { name: 'Breast Enhancement', route: '/services/plastic-surgery/breast-enhancement' },
-                    { name: 'Body Contouring & Abdomino Plasty', route: '/services/plastic-surgery/body-contouring' },
-                    { name: 'Hair Transplant', route: '/services/plastic-surgery/hair-transplant' },
-                    { name: 'Rhinoplasty', route: '/services/plastic-surgery/rhinoplasty' },
-                    { name: 'Anti-Ageing', route: '/services/plastic-surgery/anti-ageing' }
+                    { name: 'Breast Enhancement', route: '/plastic-surgery/breast-enhancement' },
+                    { name: 'Body Contouring & Abdomino Plasty', route: '/plastic-surgery/body-contouring' },
+                    { name: 'Hair Transplant', route: '/plastic-surgery/hair-transplant' },
+                    { name: 'Rhinoplasty', route: '/plastic-surgery/rhinoplasty' },
+                    { name: 'Anti-Ageing', route: '/plastic-surgery/anti-ageing' }
                 ]
             },
             {
                 category: 'Dermatology',
                 links: [
-                    { name: 'Acne and Acne Scars', route: '/services/dermatology/acne-and-scars' },
-                    { name: 'Laser Hair Removal', route: '/services/dermatology/laser-hair-removal' },
-                    { name: 'Fillers and Botox', route: '/services/dermatology/fillers-and-botox' },
-                    { name: 'Pigmentation Dark Circle', route: '/services/dermatology/pigmentation-dark-circle' }
+                    { name: 'Acne and Acne Scars', route: '/dermatology/acne-and-scars' },
+                    { name: 'Laser Hair Removal', route: '/dermatology/laser-hair-removal' },
+                    { name: 'Fillers and Botox', route: '/dermatology/fillers-and-botox' },
+                    { name: 'Pigmentation Dark Circle', route: '/dermatology/pigmentation-dark-circle' }
                 ]
             }
         ]
@@ -154,10 +154,27 @@ const NavBar = () => {
                             {/* Book an Appointment button */}
                             <li className='ml-auto z-50'>
                                 <NavLink to='/book-appointment'>
-                                    <button className='flex items-center gap-2 px-5 py-2 bg-[#B5D44C] text-white font-bold rounded-full hover:bg-[#9ebe45] transition-all duration-300 ease-in-out'>
+                                    {/* <button className={`flex items-center gap-2 px-5 py-2  text-white font-bold rounded-full  transition-all duration-300 ease-in-out1 ${isScrolled ? 'bg-[#14202E]' : 'bg-[#2B4257] hover:bg-[#14202E]'}`}>
                                         Book an Appointment
                                         <FaArrowRight className='transition-transform duration-300 group-hover:translate-x-1' />
+                                    </button> */}
+                                    <button className={`relative flex items-center gap-2 px-5 py-2 text-white font-bold rounded-full overflow-hidden ${isScrolled ? 'bg-[#14202E]' : 'bg-[#2B4257]'
+                                        } button-reflection`}>
+
+                                        Book an Appointment
+                                        <FaArrowRight className="transition-transform duration-300 group-hover:translate-x-1" />
+
+                                        {/* Continuous animated reflection */}
+                                        <span className="reflection-glow"></span>
+
+                                        {/* Borders animation */}
+                                        <span className="border-top"></span>
+                                        <span className="border-left"></span>
+                                        <span className="border-bottom"></span>
+                                        <span className="border-right"></span>
+
                                     </button>
+
                                 </NavLink>
                             </li>
                         </ul>

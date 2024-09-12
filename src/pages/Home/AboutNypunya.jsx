@@ -93,8 +93,8 @@ const AboutMedical = () => {
                 }
             </style>
 
-            <div className="flex justify-center lg:p-0 p-4  bg-[#DFEDFF]">
-                <div className="container-xl lg:pt-20 py-10 flex flex-col gap-4">
+            <div className="flex justify-center lg:p-0 p-4  bg-white">
+                <div className="container-xl lg:py-20 py-10 flex flex-col gap-4">
                     <div className="lg:grid lg:grid-cols-2 flex flex-col gap-5">
                         <div>
                             <p className="lg:text-6xl font-bold text-3xl text-rblue" data-aos="fade-right">
@@ -146,8 +146,8 @@ const AboutMedical = () => {
             </div>
 
 
-            <div className=" justify-center lg:flex hidden bg-white">
-                <div className="container-xl lg:pt-20 py-10">
+            <div className=" justify-center lg:flex hidden bg-secondary">
+                <div className="container-xl lg:py-20 py-10">
                     <div className="">
                         <Slider {...settings}>
                             {services.flatMap(service =>
@@ -155,7 +155,7 @@ const AboutMedical = () => {
                                     <div key={link.route} className="slick-slide" >
                                         <div className="grid-item">
                                             <img src="/about/star.png" className="star-img" alt="Star" />
-                                            <NavLink to={link.route} className="scroll-text lg:text-6xl text-3xl font-bold text-rblue">
+                                            <NavLink to={link.route} className="scroll-text lg:text-6xl text-3xl font-bold text-white">
                                                 {link.name}
                                             </NavLink>
                                         </div>
