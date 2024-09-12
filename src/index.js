@@ -4,6 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import 'slick-carousel/slick/slick.css'; // Import slick-carousel styles
+import 'slick-carousel/slick/slick-theme.css'; // Import slick-carousel theme styles
+
+import "react-multi-carousel/lib/styles.css";
+
+import 'swiper/swiper-bundle.css';
+
+import 'aos/dist/aos.css';  // Import AOS CSS
+import AOS from 'aos';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -15,3 +25,8 @@ root.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+// Initialize AOS
+AOS.init({
+  duration: 1000,  // Animation duration
+});
