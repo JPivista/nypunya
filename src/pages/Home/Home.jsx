@@ -44,7 +44,7 @@ const Home = () => {
                 <div className="container-xl py-10 px-5 relative bg-[#14202E]/50 backdrop-blur-lg border border-white/30 rounded-lg shadow-lg">
                     <div className="lg:grid lg:grid-cols-2 lg:gap-4 flex flex-col gap-10">
                         <div className='flex flex-col justify-center' data-aos="fade-right">
-                            <h2 className="text-4xl font-bold text-white">
+                            <h2 className="lg:text-4xl text-3xl font-bold text-white">
                                 Medical Achivement
                                 Health Protection
                             </h2>

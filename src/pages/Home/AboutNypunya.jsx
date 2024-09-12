@@ -89,6 +89,11 @@ const AboutMedical = () => {
                         transform: rotate(-360deg);
                     }
                 }
+                    @media(max-width:1279px) {
+                    .slick-slider {
+                        height: 85px;
+                    }
+                }
             `
                 }
             </style>
@@ -146,7 +151,7 @@ const AboutMedical = () => {
             </div>
 
 
-            <div className=" justify-center lg:flex hidden bg-secondary">
+            <div className=" justify-center flex bg-secondary">
                 <div className="container-xl lg:py-20 py-10">
                     <div className="">
                         <Slider {...settings}>
