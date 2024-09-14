@@ -42,7 +42,7 @@ const Chatbot = () => {
                 onClick={() => setIsOpen(!isOpen)}
                 className="fixed bottom-20 right-5 p-4 h-12 w-12 bg-[#1c2e4a] text-white rounded-full shadow-md shadow-gray-50 flex items-center justify-center z-50"
             >
-                <span className="text-sm font-bold" >Chat</span>
+                <span className="text-sm font-bold text-goldenyellow" >Chat</span>
             </button>
 
             {isOpen && (

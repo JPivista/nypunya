@@ -44,7 +44,7 @@ const Home = () => {
                 <div className="container-xl py-10 px-5 relative bg-[#14202E]/50 backdrop-blur-lg border border-white/30 rounded-lg shadow-lg">
                     <div className="lg:grid lg:grid-cols-2 lg:gap-4 flex flex-col gap-10">
                         <div className='flex flex-col justify-center' data-aos="fade-right">
-                            <h2 className="lg:text-4xl text-3xl font-bold text-white">
+                            <h2 className="lg:text-4xl text-3xl font-bold text-[#FFDF00]">
                                 Medical Achivement
                                 Health Protection
                             </h2>
@@ -56,10 +56,10 @@ const Home = () => {
                                     end={1000}
                                     duration={2.75}
                                     suffix=" +"
-                                    className='lg:text-4xl text-3xl font-bold text-white'
+                                    className='lg:text-4xl text-3xl font-bold text-goldenyellow'
                                 />
                                 <hr className='lg:w-[60%] border' />
-                                <p className='text-xl text-bold text-white'>
+                                <p className='text-xl text-bold text-goldenyellow'>
                                     Satisfied Patients
                                 </p>
                             </div>
@@ -69,10 +69,10 @@ const Home = () => {
                                     end={100}
                                     duration={2.75}
                                     suffix="%"
-                                    className='lg:text-4xl text-3xl font-bold text-white'
+                                    className='lg:text-4xl text-3xl font-bold text-goldenyellow'
                                 />
                                 <hr className='lg:w-[60%] border' />
-                                <p className='text-xl text-bold text-white'>
+                                <p className='text-xl text-bold text-goldenyellow'>
                                     Satisfaction Rates
                                 </p>
                             </div>
@@ -87,7 +87,7 @@ const Home = () => {
                     <div className='lg:grid lg:grid-cols-3 gap-5 flex flex-col'>
                         <div className="flex flex-col items-center gap-8 p-4">
                             {/* Combined Hover Effect */}
-                            <div className='border-2 border-white p-10 rounded-xl flex flex-col gap-6 backdrop-blur-sm bg-white/10 shadow-lg transition-transform transition-colors duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#2B4257] hover:text-white hover:border-white'
+                            <div className='border-2 border-white p-10 rounded-xl flex flex-col gap-6 backdrop-blur-sm bg-white/10 shadow-lg transition-transform transition-colors duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#2B4257] hover:text-[#FFDF00] hover:border-white'
                                 data-aos="fade-down">
                                 <div>
                                     <p className='text-2xl font-semibold '>

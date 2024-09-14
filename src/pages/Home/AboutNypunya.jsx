@@ -127,7 +127,7 @@ const AboutMedical = () => {
                         <div className='flex flex-col gap-4 col-span-5' data-aos="fade-left">
                             <p className="lg:text-2xl font-semibold text-rblue">
                             </p>
-                            <p className="lg:text-xl font-light text-dblue">
+                            <p className="lg:text-xl font-semibold text-rblue">
                                 What it takes to offer YOU the best Dermatology and Plastic Surgery Services?
                             </p>
 
@@ -138,12 +138,20 @@ const AboutMedical = () => {
                                 Services and facilities at NYPUNYA are world class and comprehensive. The unique feature is the entire spectrum of Dermatology and plastic surgery services are provided under one roof. This makes NYPUNYA a one stop solution to fulfill all your aesthetic goals.
                                 The best of Aesthetics, Dermatology and plastic surgery services to enhance the sense of well being and be the Best version of yourself!
                             </p>
-                            <div className="mediic-btn cursor-scale small">
-                                <Link to="/about-us">
+                            <div className=" cursor-scale small">
+                                <Link to="/about-us" data-aos="fade-right"
+                                    class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-[#FFDF00] rounded-3xl hover:bg-white group hover:shadow-md hover:shadow-[#FFDF00] shadow-sm shadow-black "
+                                >
+                                    <span class="w-48 h-48 rounded rotate-[-40deg] bg-[#14202E] absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                                    <span class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-[#FFDF00] font-bold">
+                                        More About
+                                    </span>
+                                </Link>
+                                {/* <Link to="/about-us">
                                     <p className="font-semibold">
                                         More About
                                     </p>
-                                </Link>
+                                </Link> */}
                             </div>
                         </div>
                     </div>
@@ -160,7 +168,7 @@ const AboutMedical = () => {
                                     <div key={link.route} className="slick-slide" >
                                         <div className="grid-item">
                                             <img src="/about/star.png" className="star-img" alt="Star" />
-                                            <NavLink to={link.route} className="scroll-text lg:text-6xl text-3xl font-bold text-white">
+                                            <NavLink to={link.route} className="scroll-text lg:text-6xl text-3xl font-bold text-goldenyellow">
                                                 {link.name}
                                             </NavLink>
                                         </div>

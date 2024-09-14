@@ -12,7 +12,7 @@ const navLinks = [
 ];
 
 const getLinkClass = ({ isActive }) =>
-    isActive ? 'text-white font-bold' : 'text-gray-400';
+    isActive ? 'text-[#FFDF00] font-bold' : 'text-gray-400';
 
 const Footer = () => {
     const currentYear = new Date().getFullYear(); // Get the current year dynamically

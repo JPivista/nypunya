@@ -158,7 +158,7 @@ const NavBar = () => {
                                         Book an Appointment
                                         <FaArrowRight className='transition-transform duration-300 group-hover:translate-x-1' />
                                     </button> */}
-                                    <button className={`relative flex items-center gap-2 px-5 py-2 text-white font-bold rounded-full overflow-hidden ${isScrolled ? 'bg-[#14202E]' : 'bg-[#2B4257]'
+                                    <button className={`relative flex items-center gap-2 px-5 py-2 text-[#FFDF00] font-bold rounded-full overflow-hidden ${isScrolled ? 'bg-[#14202E]' : 'bg-[#2B4257]'
                                         } button-reflection`}>
 
                                         Book an Appointment
