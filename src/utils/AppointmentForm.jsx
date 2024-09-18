@@ -64,7 +64,7 @@ const AppointmentForm = () => {
                             name="name"
                             value={formData.name}
                             onChange={handleChange}
-                            className="placeholder-[#002570] placeholder-wave font-semibold w-full px-3 py-2 border border-[#002570] rounded-lg bg-transparent hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            className="placeholder-[#FFDF00] placeholder-wave font-semibold w-full px-3 py-2 border border-[#FFDF00] rounded-lg bg-transparent hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
                             placeholder="Your Name"
                         />
                         {errors.name && <p className="text-red-500 text-sm mt-1">{errors.name}</p>}
@@ -76,7 +76,7 @@ const AppointmentForm = () => {
                             name="email"
                             value={formData.email}
                             onChange={handleChange}
-                            className="placeholder-[#002570] placeholder-wave font-semibold w-full px-3 py-2 border border-[#002570] rounded-lg bg-transparent hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            className="placeholder-[#FFDF00] placeholder-wave font-semibold w-full px-3 py-2 border border-[#FFDF00] rounded-lg bg-transparent hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
                             placeholder="Your Email"
                         />
                         {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
@@ -91,7 +91,7 @@ const AppointmentForm = () => {
                             name="phone"
                             value={formData.phone}
                             onChange={handleChange}
-                            className="placeholder-[#002570] placeholder-wave font-semibold w-full px-3 py-2 border border-[#002570] rounded-lg bg-transparent hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            className="placeholder-[#FFDF00] placeholder-wave font-semibold w-full px-3 py-2 border border-[#FFDF00] rounded-lg bg-transparent hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
                             placeholder="Your Phone"
                         />
                         {errors.phone && <p className="text-red-500 text-sm mt-1">{errors.phone}</p>}
@@ -102,15 +102,16 @@ const AppointmentForm = () => {
                             name="treatment"
                             value={formData.treatment}
                             onChange={handleChange}
-                            className="placeholder-[#002570] placeholder-wave font-semibold w-full px-3 py-2 border border-[#002570] rounded-lg bg-transparent hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            className={`font-semibold w-full px-3 py-2 border border-[#FFDF00] rounded-lg bg-transparent hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 ${formData.treatment === "" ? "text-[#FFDF00]" : "text-white"
+                                }`}
                         >
-                            <option value="">Select Treatment</option>
+                            <option value="" disabled hidden>Select Treatment</option>
                             <option value="Plastic Surgery">Plastic Surgery</option>
                             <option value="Dermatology">Dermatology</option>
-                            {/* Add more treatments as needed */}
                         </select>
                         {errors.treatment && <p className="text-red-500 text-sm mt-1">{errors.treatment}</p>}
                     </div>
+
                 </div>
 
                 {/* Row 3: Message */}
@@ -119,7 +120,7 @@ const AppointmentForm = () => {
                         name="message"
                         value={formData.message}
                         onChange={handleChange}
-                        className="placeholder-[#002570] placeholder-wave font-semibold w-full px-3 py-2 border border-[#002570] rounded-lg bg-transparent hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        className="placeholder-[#FFDF00] placeholder-wave font-semibold w-full px-3 py-2 border border-[#FFDF00] rounded-lg bg-transparent hover:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
                         rows="4"
                         placeholder="Your Message"
                     />
@@ -129,7 +130,7 @@ const AppointmentForm = () => {
                 <div className="text-center">
                     <button
                         type="submit"
-                        className="px-6 py-3 bg-[#14202E] text-goldenyellow font-medium rounded-lg hover:bg-blue-600 transition-colors"
+                        className="px-6 py-3 bg-[#FFDF00] text-[#14202E] font-medium rounded-lg hover:bg-[#14202E] hover:shadow-lg hover:text-[#FFDF00] transition-colors"
                     >
                         Submit
                     </button>

@@ -135,7 +135,7 @@ const Services = () => {
                             BEST SERVICE
                         </p>
 
-                        <p className="text-[#97a9bf] text-[18px]" data-aos="fade-up">
+                        <p className="text-[#FFDF00] text-[18px]" data-aos="fade-up">
                             Enthusiastically orchestrate competitive e-services whereas superior Conveniently disintermediate innovative solutions through impactfuls tailers without seamless markets network.
                         </p>
 
@@ -173,7 +173,7 @@ const Services = () => {
                                     <div className="glass-reflection"></div>
                                     <Link to={link.route}>
                                         <div className="item-content">
-                                            <p className="text-lg font-semibold group-hover:text-[#FFDF00]" data-aos="fade-up">{link.name}</p>
+                                            <p className="text-lg font-semibold text-[#FFDF00] group-hover:text-[#FFDF00]" data-aos="fade-up">{link.name}</p>
                                         </div>
                                     </Link>
                                     <div className="absolute top-0 right-0 items-center p-4 justify-center group-hover:flex hidden">

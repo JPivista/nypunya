@@ -40,7 +40,7 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="flex justify-center items-center bg-[#2B4257] p-4 backdrop-blur-lg">
+            <div className="flex justify-center items-center bg-[#14202E] p-4 backdrop-blur-lg">
                 <div className="container-xl py-10 px-5 relative bg-[#14202E]/50 backdrop-blur-lg border border-white/30 rounded-lg shadow-lg">
                     <div className="lg:grid lg:grid-cols-2 lg:gap-4 flex flex-col gap-10">
                         <div className='flex flex-col justify-center' data-aos="fade-right">
@@ -82,12 +82,11 @@ const Home = () => {
             </div>
 
 
-            <div className="flex justify-center lg:p-0 p-4 b bg-[#DFEDFF]">
+            {/* <div className="flex justify-center lg:p-0 p-4 b bg-[#063147]">
                 <div className="container lg:py-28">
                     <div className='lg:grid lg:grid-cols-3 gap-5 flex flex-col'>
                         <div className="flex flex-col items-center gap-8 p-4">
-                            {/* Combined Hover Effect */}
-                            <div className='border-2 border-white p-10 rounded-xl flex flex-col gap-6 backdrop-blur-sm bg-white/10 shadow-lg transition-transform transition-colors duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#2B4257] hover:text-[#FFDF00] hover:border-white'
+                            <div className='border-2 border-[#FFDF00] p-10 rounded-xl flex flex-col gap-6 backdrop-blur-sm bg-white/10 shadow-lg transition-transform transition-colors duration-300 hover:scale-105 text-white hover:shadow-2xl hover:bg-[#2B4257] hover:text-[#FFDF00] hover:border-white'
                                 data-aos="fade-down">
                                 <div>
                                     <p className='text-2xl font-semibold '>
@@ -107,8 +106,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="flex flex-col items-center gap-8 p-4">
-                            {/* Combined Hover Effect */}
-                            <div className='border-2 border-white p-10 rounded-xl flex flex-col gap-6 backdrop-blur-sm bg-white/10 shadow-lg transition-transform transition-colors duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#2B4257] hover:text-white hover:border-white'
+                            <div className='border-2 border-white p-10 rounded-xl flex flex-col gap-6 backdrop-blur-sm bg-white/10 shadow-lg transition-transform transition-colors duration-300 text-[#FFDF00] hover:scale-105 hover:shadow-2xl hover:bg-[#2B4257] hover:text-white hover:border-[#FFDF00]'
                                 data-aos="fade-up" data-aos-duration="5000" data-aos-easing="ease-out-cubic"
                             >
                                 <div>
@@ -134,7 +132,6 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="flex flex-col items-center gap-8 p-4">
-                            {/* Combined Hover Effect */}
                             <div className='border-2 border-white p-10 rounded-xl flex flex-col gap-6 backdrop-blur-sm bg-white/10 shadow-lg transition-transform transition-colors duration-300 hover:scale-105 hover:shadow-2xl hover:bg-[#2B4257] hover:text-white hover:border-white'
                                 data-aos="fade-down">
                                 <div>
@@ -160,7 +157,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
             <AboutNypunya />
             <Services />
