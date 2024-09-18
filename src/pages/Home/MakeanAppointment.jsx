@@ -10,10 +10,10 @@ const MakeanAppointment = () => {
                             <img src='/book-appointment.jpg' alt='book an appointment' className='h-full object-cover object-center opacity-80' />
                         </div>
                         <div className="flex flex-col gap-4 lg:p-6">
-                            <p className="text-[#FFDF00] text-xl font-semibold">
+                            <p className="text-[#ffe743] text-xl font-semibold">
                                 ONLINE APPOINMENT
                             </p>
-                            <p className="lg:text-4xl text-2xl text-[#FFDF00] font-semibold">
+                            <p className="lg:text-4xl text-2xl text-[#ffe743] font-semibold">
                                 Make an Online Appoinemnt Booking For Treatment Patients
                             </p>
                             <MakeanAppointmentForm />

@@ -102,7 +102,7 @@ const AboutMedical = () => {
                 <div className="container-xl lg:py-20 py-10 flex flex-col gap-4">
                     <div className="lg:grid lg:grid-cols-2 flex flex-col gap-5">
                         <div>
-                            <p className="lg:text-6xl font-bold text-3xl text-[#FFDF00]" data-aos="fade-right">
+                            <p className="lg:text-6xl font-bold text-3xl text-[#C1910F]" data-aos="fade-right">
                                 About Nypunya
                             </p>
                         </div>
@@ -112,9 +112,9 @@ const AboutMedical = () => {
                                 end={10}
                                 duration={2.75}
                                 suffix="+"
-                                className='lg:text-6xl text-4xl text-bold text-[#FFDF00]'
+                                className='lg:text-6xl text-4xl text-bold text-[#C1910F]'
                             />
-                            <p className='text-[#FFDF00] text-lg font-semibold pl-5' data-aos="fade-left">
+                            <p className='text-[#C1910F] text-lg font-semibold pl-5' data-aos="fade-left">
                                 YEARS OF <br /> EXPERIENCE
                             </p>
                         </div>
@@ -127,23 +127,23 @@ const AboutMedical = () => {
                         <div className='flex flex-col gap-4 col-span-5' data-aos="fade-left">
                             <p className="lg:text-2xl font-semibold text-rblue">
                             </p>
-                            <p className="lg:text-xl font-semibold text-[#FFDF00]">
+                            <p className="lg:text-xl font-semibold text-[#C1910F]">
                                 What it takes to offer YOU the best Dermatology and Plastic Surgery Services?
                             </p>
 
-                            <p className='text-[#FFDF00]'>
+                            <p className='text-[#C1910F]'>
                                 Nypunya means ‘Expertise’ in Sanskrit. Our Doctors are Experts in the true sense. After training in the most prestigious medical institutes , gaining an immense wealth of clinical experience and earning many academic laurels. Our doctors have more than a decade of experience in clinical practice. Experience matters! They have performed a wide variety of aesthetic surgical and nonsurgical procedures and NYPUNYA boasts of thousands of happy and satisfied patients. They believe in constantly updating themselves with the latest techniques and cutting edge technologies and refining their skills.
                             </p>
-                            <p className='text-[#FFDF00]'>
+                            <p className='text-[#C1910F]'>
                                 Services and facilities at NYPUNYA are world class and comprehensive. The unique feature is the entire spectrum of Dermatology and plastic surgery services are provided under one roof. This makes NYPUNYA a one stop solution to fulfill all your aesthetic goals.
                                 The best of Aesthetics, Dermatology and plastic surgery services to enhance the sense of well being and be the Best version of yourself!
                             </p>
                             <div className=" cursor-scale small">
                                 <Link to="/about-us" data-aos="fade-right"
-                                    class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-[#FFDF00] rounded-3xl hover:bg-white group hover:shadow-md hover:shadow-[#FFDF00] shadow-sm shadow-black "
+                                    class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-[#C1910F] rounded-3xl hover:bg-white group hover:shadow-md hover:shadow-[#C1910F] shadow-sm shadow-black "
                                 >
                                     <span class="w-48 h-48 rounded rotate-[-40deg] bg-[#14202E] absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
-                                    <span class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-[#FFDF00] font-bold">
+                                    <span class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-[#C1910F] font-bold">
                                         More About
                                     </span>
                                 </Link>
@@ -168,7 +168,7 @@ const AboutMedical = () => {
                                     <div key={link.route} className="slick-slide" >
                                         <div className="grid-item">
                                             <img src="/about/star.png" className="star-img" alt="Star" />
-                                            <NavLink to={link.route} className="scroll-text lg:text-6xl text-3xl font-bold text-goldenyellow">
+                                            <NavLink to={link.route} className="scroll-text lg:text-6xl text-3xl font-bold text-[#C1910F]">
                                                 {link.name}
                                             </NavLink>
                                         </div>

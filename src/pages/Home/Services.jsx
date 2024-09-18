@@ -118,7 +118,7 @@ const Services = () => {
                 .carousel-item:hover .hover-gradient {
                     opacity: 1;
                     background-color: rgba(0, 0, 0, 0.3); /* Black background with reduced opacity */
-                    color:#FFDF00;
+                    color:#F0B609;
                 }
 
                 .carousel-item:hover .glass-reflection {
@@ -130,24 +130,24 @@ const Services = () => {
             <div className="flex justify-center lg:p-0 p-4 bg-rblue">
                 <div className="container-xl lg:py-20 flex flex-col gap-8">
                     <div className="lg:grid lg:grid-cols-3 gap-8 items-center flex flex-col">
-                        <p className='lg:text-6xl text-4xl text-bold text-goldenyellow' data-aos="flip-right">
+                        <p className='lg:text-6xl text-4xl text-bold text-[#F0B609]' data-aos="flip-right">
                             PROVIDES
                             BEST SERVICE
                         </p>
 
-                        <p className="text-[#FFDF00] text-[18px]" data-aos="fade-up">
+                        <p className="text-[#F0B609] text-[18px]" data-aos="fade-up">
                             Enthusiastically orchestrate competitive e-services whereas superior Conveniently disintermediate innovative solutions through impactfuls tailers without seamless markets network.
                         </p>
 
                         <div className="  flex flex-col lg:items-center lg:justify-center">
                             <Link to="/services" data-aos="fade-right"
-                                class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-[#FFDF00] rounded-3xl hover:bg-white group hover:shadow-md hover:shadow-[#FFDF00] shadow-sm shadow-white "
+                                class="relative inline-flex items-center justify-start px-6 py-3 overflow-hidden font-medium transition-all bg-[#F0B609] rounded-3xl hover:bg-white group hover:shadow-md hover:shadow-[#F0B609] shadow-sm shadow-white "
                             >
-                                {/* <p className="font-semibold text-FFDF00 bg-[#FFDF00]">
+                                {/* <p className="font-semibold text-F0B609 bg-[#F0B609]">
                                     View All Services
                                 </p> */}
                                 <span class="w-48 h-48 rounded rotate-[-40deg] bg-[#14202E] absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
-                                <span class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-[#FFDF00] font-bold">
+                                <span class="relative w-full text-left text-black transition-colors duration-300 ease-in-out group-hover:text-[#F0B609] font-bold">
                                     View All Services
                                 </span>
                             </Link>
@@ -160,7 +160,7 @@ const Services = () => {
                             <Link to={link.route}>
                                 <div
                                     key={link.route}
-                                    className="relative overflow-hidden rounded-lg mx-4 my-4 shadow-sm shadow-[#FFDF00] carousel-item"
+                                    className="relative overflow-hidden rounded-lg mx-4 my-4 shadow-sm shadow-[#F0B609] carousel-item"
                                     style={{
                                         backgroundImage: `url(${link.image})`,
                                         backgroundSize: 'cover',
@@ -173,7 +173,7 @@ const Services = () => {
                                     <div className="glass-reflection"></div>
                                     <Link to={link.route}>
                                         <div className="item-content">
-                                            <p className="text-lg font-semibold text-[#FFDF00] group-hover:text-[#FFDF00]" data-aos="fade-up">{link.name}</p>
+                                            <p className="text-lg font-semibold text-[#F0B609] group-hover:text-[#F0B609]" data-aos="fade-up">{link.name}</p>
                                         </div>
                                     </Link>
                                     <div className="absolute top-0 right-0 items-center p-4 justify-center group-hover:flex hidden">
