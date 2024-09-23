@@ -114,7 +114,7 @@ const Services = () => {
                 .carousel-item:hover .custom-gradient {
                     opacity: 0.3;
                 }
-
+ 
                 .carousel-item:hover .hover-gradient {
                     opacity: 1;
                     background-color: rgba(0, 0, 0, 0.3); /* Black background with reduced opacity */
