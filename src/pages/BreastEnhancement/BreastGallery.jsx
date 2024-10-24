@@ -83,7 +83,7 @@ const BreastGallery = () => {
                     }
 
                     .close-btn, .nav-btn, .download-btn, .share-btn {
-                        background-color: yellow;
+                        background-color: #14202E;
                         border: none;
                         padding: 10px;
                         cursor: pointer;
@@ -99,7 +99,7 @@ const BreastGallery = () => {
                         top: 10px;
                         right: 10px;
                         background-color: transparent;
-                        color: black;
+                        color: #14202E;
                         font-size: 24px;
                     }
 
@@ -116,7 +116,7 @@ const BreastGallery = () => {
                     .nav-btn {
                         background-color: transparent;
                         font-size: 30px;
-                        color: yellow;
+                        color: #14202E;
                     }
 
                     /* Share Buttons */
@@ -139,8 +139,13 @@ const BreastGallery = () => {
 
                     .social-icons a {
                         margin: 0 10px;
-                        color: black;
+                        color: #14202E;
                         font-size: 24px;
+                    }
+
+                    svg {
+                        color: #F0B609 !important;
+                        background: #14202E;
                     }
                 `}
             </style>
@@ -179,39 +184,45 @@ const BreastGallery = () => {
                                     </button>
                                 </div>
 
-                                {/* Download Button */}
-                                <button className="download-btn">
-                                    <a href={currentImage} download>
-                                        <FaDownload /> Download
-                                    </a>
-                                </button>
-
-                                {/* Share Button */}
-                                <div className="share-container">
-                                    <button className="share-btn" onClick={() => setShowShareIcons(!showShareIcons)}>
-                                        <FaShareAlt /> Share
+                                <div className='absolute top-0 right-0 flex flex-row gap-3'>
+                                    {/* Download Button */}
+                                    <button className="download-btn">
+                                        <a href={currentImage} download>
+                                            <FaDownload />
+                                            {/* Download */}
+                                        </a>
                                     </button>
 
-                                    {/* Social Icons (appear on hover) */}
-                                    <div className="social-icons ">
-                                        <a href={`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`} target="_blank" rel="noopener noreferrer">
-                                            <FaFacebook />
-                                        </a>
-                                        <a href={`https://twitter.com/intent/tweet?url=${shareUrl}&text=Check%20out%20this%20image`} target="_blank" rel="noopener noreferrer">
-                                            <FaTwitter />
-                                        </a>
-                                        <a href={`https://api.whatsapp.com/send?text=${shareUrl}`} target="_blank" rel="noopener noreferrer">
-                                            <FaWhatsapp />
-                                        </a>
-                                    </div>
-                                </div>
+                                    {/* Share Button */}
+                                    <div className="share-container">
+                                        <button className="share-btn" onClick={() => setShowShareIcons(!showShareIcons)}>
+                                            <FaShareAlt />
+                                            {/* Share */}
+                                        </button>
 
-                                {/* Close Button */}
-                                <button className="close-btn" onClick={closeModal}>
-                                    <FaTimes />
-                                </button>
+                                        {/* Social Icons (appear on hover) */}
+                                        <div className="social-icons absolute top-7 -right-1">
+                                            <a href={`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`} target="_blank" rel="noopener noreferrer">
+                                                <FaFacebook />
+                                            </a>
+                                            <a href={`https://twitter.com/intent/tweet?url=${shareUrl}&text=Check%20out%20this%20image`} target="_blank" rel="noopener noreferrer">
+                                                <FaTwitter />
+                                            </a>
+                                            <a href={`https://api.whatsapp.com/send?text=${shareUrl}`} target="_blank" rel="noopener noreferrer">
+                                                <FaWhatsapp />
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                    {/* Close Button */}
+                                    <button className="" onClick={closeModal}>
+                                        <FaTimes />
+                                    </button>
+                                </div>
                             </div>
                         </div>
+
                     )}
                 </div>
             </div>
