@@ -83,7 +83,7 @@ const BreastGallery = () => {
                     }
 
                     .close-btn, .nav-btn, .download-btn, .share-btn {
-                        background-color: #14202E;
+                        background-color: yellow;
                         border: none;
                         padding: 10px;
                         cursor: pointer;
@@ -99,7 +99,7 @@ const BreastGallery = () => {
                         top: 10px;
                         right: 10px;
                         background-color: transparent;
-                        color: #14202E;
+                        color: black;
                         font-size: 24px;
                     }
 
@@ -116,7 +116,7 @@ const BreastGallery = () => {
                     .nav-btn {
                         background-color: transparent;
                         font-size: 30px;
-                        color: #14202E;
+                        color: yellow;
                     }
 
                     /* Share Buttons */
@@ -139,13 +139,8 @@ const BreastGallery = () => {
 
                     .social-icons a {
                         margin: 0 10px;
-                        color: #14202E;
+                        color: black;
                         font-size: 24px;
-                    }
-
-                    svg {
-                        color: #F0B609 !important;
-                        background: #14202E;
                     }
                 `}
             </style>
