@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Outlet } from "react-router-dom";
 import Header from '../components/Header/NavBar';
 import Footer from '../components/Footer/Footer';
+import ScrollToTop from '../utils/ScrollToTop';
 
 const MainLayout = () => {
     const [scrollIndicator, setScrollIndicator] = useState(0);
@@ -21,7 +22,7 @@ const MainLayout = () => {
     return (
         <main>
             <Header />
-
+            <ScrollToTop />
             {/* Floating Scroll Indicator */}
             {scrollIndicator > 1 && (  // Show only after 1% scroll
                 <div

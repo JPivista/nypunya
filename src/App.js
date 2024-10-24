@@ -3,6 +3,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import './App.css';
 import AppRoutes from './routes/routes';
 
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
 // AOS imports for animations
 import 'aos/dist/aos.css';
 import AOS from 'aos';
